@@ -1,13 +1,49 @@
-body{
-    margin:0;
-    background-color: rgb(27, 25, 25);
+body {
+  background-color: rgb(27, 25, 25);
 }
 
+#backgpic {
+  width: 90vw;
+  height: 80vh;
 
-#backgpic{
-    width: 500px;
-    height: 500px;
+  margin-right: auto;
+  margin-left: auto;
 
-    padding: 5px;
-    background-color: pink;
+  position: relative;
+  top: 100px;
+
+  background-image: url("SOAD-int.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#experienced {
+  width: 75vw;
+  height: 70vh;
+
+  border-radius: 30px;
+
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 100px;
+
+  background-color: rgba(10, 9, 9, 0.7);
+}
+
+.bar {
+  width: 150px;
+  height: 30px;
+
+  border-radius: 10px;
+  border: none;
+
+  padding: 10px;
+
+  background-color: rgba(246, 242, 242, 0.7);
+
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  left: 100px;
 }
