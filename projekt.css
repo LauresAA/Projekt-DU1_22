@@ -1,49 +1,47 @@
 body {
-  background-color: rgb(27, 25, 25);
+background-color: rgb(27, 25, 25);
+margin: 0;
+  
+background-image: url("SYSTEM.webp");
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+
+
 }
 
-#backgpic {
-  width: 90vw;
-  height: 80vh;
 
-  margin-right: auto;
-  margin-left: auto;
 
-  position: relative;
-  top: 100px;
-
-  background-image: url("SOAD-int.jpg");
-  background-size: cover;
-  background-position: center;
-}
-
-#experienced {
-  width: 75vw;
-  height: 70vh;
-
-  border-radius: 30px;
-
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  top: 100px;
-
-  background-color: rgba(10, 9, 9, 0.7);
-}
-
-.bar {
-  width: 150px;
-  height: 30px;
-
-  border-radius: 10px;
-  border: none;
+#container{
+  display: flex;
+  background-color: rgba(63, 62, 62, 0.6);
 
   padding: 10px;
+  margin: 200px 270px;
 
-  background-color: rgba(246, 242, 242, 0.7);
+  height: 60vh;
+  width: 70vw;
 
-  display: inline-block;
-  position: relative;
-  top: 80px;
-  left: 100px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+a{
+text-decoration: none;
+text-align: center;
+
+color: white;
+background-color: black;
+
+
+padding: 10px;
+margin:0 10px;
+
+height: 5vh;
+width: 10vw;
+}
+
+a:hover{
+  background-color: rgb(65, 64, 64);
 }
