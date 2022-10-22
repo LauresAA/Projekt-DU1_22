@@ -1,5 +1,5 @@
 body {
-background-color: rgb(27, 25, 25);
+
 margin: 0;
   
 background-image: url("SYSTEM.webp");
@@ -10,9 +10,19 @@ background-attachment: fixed;
 
 }
 
+/*Header*/
+header{
+  font-family:fantasy;
+ font-size: 40px;
+  position: absolute;
+  left: 400px;
+  top:200px
+   }
 
 
-#container{
+
+   /*navigationbar*/
+nav{
   display: flex;
   background-color: rgba(63, 62, 62, 0.6);
 
@@ -23,17 +33,18 @@ background-attachment: fixed;
   width: 70vw;
 
   justify-content: center;
-  align-items: flex-start;
+  align-items:center;
 }
 
 
-a{
+div{
 text-decoration: none;
 text-align: center;
 
-color: white;
-background-color: black;
+color: black;
+background-color: rgba(190, 184, 184, 0.9);
 
+border-radius: 20px;
 
 padding: 10px;
 margin:0 10px;
@@ -42,6 +53,17 @@ height: 5vh;
 width: 10vw;
 }
 
-a:hover{
+div:hover{
   background-color: rgb(65, 64, 64);
 }
+
+.marked{
+ border: 1px solid white;
+ font-size: large;
+ }
+
+ #are_you_experienced{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
